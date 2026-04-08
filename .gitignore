@@ -1,10 +1,27 @@
-# Python-generated files
+.venv/
+venv/
+env/
+
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+.env
+.env.*
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverag
+coverage.xml
+htmlcov/
+
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+celerybeat-schedule
+*.log
+
+.DS_Store
+
